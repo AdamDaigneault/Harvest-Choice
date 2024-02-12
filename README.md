@@ -19,7 +19,7 @@ We estimated both harvest choices separately for sawlogs and pulp logs. Data wer
 ### Codes Steps
 The steps to run this model include: 
 1. Data setup: This step should be run via the 1_Data_Clean.R with the original data file Data_V0.csv, generating results output Data_Clean_V0.csv.
-2. Growth Vloum: This step should be run via the 2_Growth. R with the Growth.csv and Data_Clean_V0.csv, generating parameters output Data_Clean_V1.csv.
+2. Growth Volume: This step should be run via the 2_Growth. R with the Growth.csv and Data_Clean_V0.csv, generating parameters output Data_Clean_V1.csv.
 3. Harvest Intensity: This step should be run via the 3_Intensity. R with the Data_Clean_V1.csv, generating results output Data_Clean_V2.csv.
 4. Harvest Choice: This step should be run via the 4_Choice. R with the Data_Clean_V2.csv, generating model estimates.
 
